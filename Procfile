@@ -1,2 +1,1 @@
-web: python pmod_bot.py
-worker: python pmod_bot.py
+bundle exec thin start -p $PORT
