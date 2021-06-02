@@ -1,2 +1,2 @@
-web: pmod_bot.py
-worker: pmod_bot.py
+web: python pmod_bot.py
+worker: python pmod_bot.py
