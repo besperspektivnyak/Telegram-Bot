@@ -5,7 +5,6 @@ import telebot
 import os
 
 TOKEN = os.environ['TELEGRAM_TOKEN']
-some_api_token = os.environ['SOME_API_TOKEN']
 bot = telebot.TeleBot(TOKEN)
 population_id = None
 global host_url
