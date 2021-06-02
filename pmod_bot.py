@@ -3,6 +3,7 @@ import json
 import requests
 
 TOKEN = os.environ['TELEGRAM_TOKEN']
+some_api_token = os.environ['SOME_API_TOKEN']
 import telebot
 bot = telebot.TeleBot(TOKEN)
 population_id = None
